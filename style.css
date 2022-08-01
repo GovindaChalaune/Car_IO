@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.application_body{
+    border: 1px solid #000;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    border-style: dashed;
+}
+.Av-image{
+    display: flex;
+    justify-content: center;
+
+}
+.Av-image img{
+    height: 250px;
+}
+/* text css start */
+.text{
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 30px;
+}
+.car_text{
+    color: rgb(201, 201, 201);
+}
+/* text css end */
+.Av_controllers
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.Av_controller_btn{
+    position: absolute;
+}
+.Av_controller_btn .forward{
+    position: absolute;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(104, 175, 104);
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    
+
+}
+.Av_controller_btn .forward:hover{
+    background-color: rgba(6, 124, 124, 0.623);
+    transition: 0.1s ease-in-out;
+    transform: translateY(-2px);
+}
+.Av_controller_btn .forward:active{
+    transform: translateY(0px);
+    background-color: rgb(214, 221, 228);
+}
+.Av_controller_btn .backward{
+    position: absolute;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    margin-top: 40px;
+    border: none;
+    background-color: rgb(104, 175, 104);
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+.Av_controller_btn .backward:hover{
+    background-color: rgb(175, 175, 160);
+    transition: 0.1s ease-in-out;
+    transform: translateY(-2px);
+}
+.Av_controller_btn .backward:active{
+    transform: translateY(0px);
+    background-color: rgb(214, 221, 228);
+}
+.Av_controller_btn .right
+{
+    position: absolute;
+    margin-top: 15px;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    margin-left: -40px;
+    border: none;
+    background-color: rgb(104, 175, 104);
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+.Av_controller_btn .right:hover{
+    background-color: rgb(80, 97, 97);
+    transition: 0.1s ease-in-out;
+    transform: translateY(-2px);
+}
+.Av_controller_btn .right:active{
+    transform: translateY(0px);
+    background-color: rgb(214, 221, 228);
+}
+.Av_controller_btn .left
+{
+    position: absolute;
+    margin-top: 15px;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    margin-left: 45px;
+    border: none;
+    background-color: rgb(104, 175, 104);
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+.Av_controller_btn .left:hover{
+    background-color: rgb(98, 121, 182);
+    transition: 0.1s ease-in-out;
+    transform: translateY(-2px);
+}
+.Av_controller_btn .left:active{
+    transform: translateY(0px);
+    background-color: rgb(214, 221, 228);
+}
+
+
+
+
